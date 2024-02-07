@@ -255,14 +255,17 @@ tr:hover .cut {
     .cut {
         display: none;
     }
+    
+    @page {
+    margin: 0;
+    }
+    
     header {
     display: block;
   }
 }
 
-@page {
-    margin: 0;
-}
+
 
 /* Agrega un estilo personalizado para la línea debajo de la dirección y el número */
 .custom-line {
