@@ -255,6 +255,9 @@ tr:hover .cut {
     .cut {
         display: none;
     }
+    header, footer {
+    display: block;
+  }
 }
 
 @page {
