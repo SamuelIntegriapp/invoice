@@ -11,18 +11,6 @@
     vertical-align: top;
 }
 
-#encabezado {
- position:fixed;
-    top:0px;
-    left:0px;
-    width:95%;
-    padding:8px;
-}
-
-article{
-    margin-top: 1500px;
-}
-
 /* content editable */
 *[contenteditable] {
     border-radius: 0.25em;
@@ -269,11 +257,9 @@ tr:hover .cut {
     }
 }
 
- @page {
+@page {
     margin: 0;
 }
-
-
 
 /* Agrega un estilo personalizado para la línea debajo de la dirección y el número */
 .custom-line {
