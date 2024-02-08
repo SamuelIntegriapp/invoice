@@ -82,12 +82,13 @@ body {
 header {
     margin: 0 0 3em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
+    display: table-header-group;
 }
 .cuerpo{
   margin-top: 180px;
   border: solid;
-  position:fixed;
-  width:90%;
+  display: table-row-group;
+
 }
 
 header h1 {
