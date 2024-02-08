@@ -84,13 +84,16 @@ header {
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
     display: table-header-group;
 }
-.cuerpo{
-  margin-top: 180px;
+.cuerpo{ 
+  margin-top: 1800px;
   border: solid;
   display: table-row-group;
 
 }
+.pie{
+    display: table-footer-group;
 
+}
 header h1 {
     background: #27649d;
     border-radius: 0.25em;
