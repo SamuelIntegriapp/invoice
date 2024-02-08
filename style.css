@@ -89,7 +89,7 @@ header {
 .cuerpo{
   margin-top: 180px;
   border: solid;
-  position:static;
+  position:-ms-page;
   
 }
 
