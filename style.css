@@ -82,14 +82,11 @@ body {
 header {
     margin: 0 0 3em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
-    position:fixed;
-    width:90%;      
+        
     
 }
 .cuerpo{
-  margin-top: 180px;
   border: solid;
-  position:unset;
   
 }
 
@@ -265,6 +262,16 @@ tr:hover .cut {
     .cut {
         display: none;
     }
+    header#encabezado {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #f9f9f9; /* Color de fondo del encabezado */
+        padding: 10px;
+        text-align: center;
+      }
+      
 }
 
 @page {
