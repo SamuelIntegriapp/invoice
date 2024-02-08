@@ -89,7 +89,8 @@ header {
 .cuerpo{
   margin-top: 180px;
   border: solid;
- 
+  position: absolute;
+  
 }
 
 header h1 {
