@@ -267,9 +267,12 @@ tr:hover .cut {
         top: 0;
         left: 0;
         right: 0;
-        background-color: #f9f9f9; /* Color de fondo del encabezado */
         padding: 10px;
         text-align: center;
+      }
+    
+      .cuerpo {
+        margin-top: 150px; /* Ajusta la altura según tus necesidades */
       }
       
 }
