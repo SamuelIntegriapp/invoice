@@ -11,6 +11,7 @@
     vertical-align: top;
 }
 
+
 /* content editable */
 *[contenteditable] {
     border-radius: 0.25em;
@@ -81,6 +82,12 @@ body {
 header {
     margin: 0 0 3em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
+    position:fixed;
+    width:90%;      
+}
+.cuerpo{
+  margin-top: 150px;
+  border: solid;
 }
 
 header h1 {
