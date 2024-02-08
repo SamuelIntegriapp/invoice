@@ -84,10 +84,10 @@ header {
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
 }
 .cuerpo{
-  margin-top: 150px;
+  margin-top: 180px;
   border: solid;
   position:fixed;
-  width:90%;  
+  width:90%;
 }
 
 header h1 {
