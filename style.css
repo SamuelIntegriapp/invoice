@@ -67,9 +67,9 @@ body {
 header {
     margin: 0 0 3em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
-    /* position: fixed;
+    position: fixed;
     width: 90%;
-    page-break-before: avoid; */
+    
     display: table-header-group;
     page-break-before: avoid;
 }
