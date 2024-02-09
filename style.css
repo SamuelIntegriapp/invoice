@@ -67,12 +67,18 @@ body {
 header {
     margin: 0 0 3em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
+    position: fixed;
+    width: 90%;
     page-break-before: avoid;
 }
 
 .cuerpo{
-  border: solid; 
+  margin-top: 150px;
+  position: fixed;
+  width: 90%;
+
   page-break-before: avoid;
+  border: solid; 
 }
 
 header h1 {
