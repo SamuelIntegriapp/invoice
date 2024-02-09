@@ -69,15 +69,13 @@ header {
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
     position: fixed;
     width: 90%;
-    
-    display: table-header-group;
-    page-break-before: avoid;
+
 }
 
 .cuerpo{
-  page-break-before: avoid;
   border: solid; 
-  display: table-row-group;
+  margin-top: 150px;
+  page-break-before:auto;
 }
 
 header h1 {
