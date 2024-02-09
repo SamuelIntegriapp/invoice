@@ -10,8 +10,6 @@
     text-decoration: none;
     vertical-align: top;
 }
-
-
 /* content editable */
 *[contenteditable] {
     border-radius: 0.25em;
@@ -20,19 +18,9 @@
     cursor: pointer;
 }
 
-*[contenteditable]:hover,
-*[contenteditable]:focus,
-td:hover *[contenteditable],
-td:focus *[contenteditable],
-img.hover {
-    background: #DEF;
-    box-shadow: 0 0 1em 0.5em #DEF;
-}
-
 span[contenteditable] {
     display: inline-block;
 }
-
 /* heading */
 h1 {
     font: bold 100% sans-serif;
@@ -41,7 +29,6 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 1em; /* Añadido para espacio después del título */
 }
-
 /* table */
 table {
     font-size: 75%;
@@ -60,7 +47,6 @@ th, td {
 th {
     background: #EEE;
 }
-
 /* page */
 html {
     font: 16px/1 'Open Sans', sans-serif;
@@ -77,17 +63,16 @@ body {
     background: #FFF;
     box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
 }
-
 /* header */
 header {
     margin: 0 0 3em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
-        
-    
+    page-break-before: avoid;
 }
+
 .cuerpo{
-  border: solid;
-  
+  border: solid; 
+  page-break-before: avoid;
 }
 
 header h1 {
@@ -131,7 +116,6 @@ header input {
     top: 0;
     width: 100%;
 }
-
 /* article */
 article,
 article address,
@@ -164,14 +148,6 @@ table.balance {
     float: right;
     width: 36%;
 }
-
-table.meta:after,
-table.balance:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 /* table meta */
 table.meta th {
     width: 40%;
@@ -180,7 +156,6 @@ table.meta th {
 table.meta td {
     width: 60%;
 }
-
 /* table items */
 table.inventory th {
     font-weight: bold;
@@ -228,19 +203,11 @@ aside h1 {
     margin: -2.5em 0 0;
 }
 
-.add:hover {
-    background: #00ADEE;
-}
-
 .cut {
     opacity: 0;
     position: absolute;
     top: 0;
     left: -1.5em;
-}
-
-tr:hover .cut {
-    opacity: 1;
 }
 
 @media print {
@@ -262,33 +229,17 @@ tr:hover .cut {
     .cut {
         display: none;
     }
-    header#encabezado {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        padding: 10px;
-        text-align: center;
-      }
-    
-      .cuerpo {
-        position: fixed;
-        margin-top: 150px; /* Ajusta la altura según tus necesidades */
-      }
-      
 }
 
 @page {
     margin: 0;
 }
-
 /* Agrega un estilo personalizado para la línea debajo de la dirección y el número */
 .custom-line {
     border: none;
     border-bottom: 1px solid #000;
     margin: 5px 0;
 }
-
 /* Estilo para el texto más pequeño */
 .small-text {
     font-size: 60%;
