@@ -72,6 +72,7 @@ header {
 }
 
 .cuerpo{
+  margin-top: 150px;
   border: solid; 
   position: relative;
 
@@ -234,7 +235,6 @@ aside h1 {
 }
 
 @page {
-    margin: 0;
 }
 /* Agrega un estilo personalizado para la línea debajo de la dirección y el número */
 .custom-line {
