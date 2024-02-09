@@ -75,7 +75,7 @@ header {
 .cuerpo{
   border: solid; 
   margin-top: 150px;
-  page-break-before:auto;
+  page-break-before:always;
 }
 
 header h1 {
