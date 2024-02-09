@@ -73,8 +73,7 @@ header {
 
 .cuerpo{
   border: solid; 
-  position: relative;
-
+  margin-top: 150px;
 }
 
 header h1 {
@@ -233,12 +232,13 @@ aside h1 {
     }
 }
 
-@page {
-    .cuerpo{
-         margin-top: 150px;
-
+@page  {
+    header {
+        margin: 0 0 3em;
+        overflow: hidden; /* Añadido para manejar el colapso del margen superior */
+        position: fixed;
+        width: 90%;
     }
-     
 }
 /* Agrega un estilo personalizado para la línea debajo de la dirección y el número */
 .custom-line {
